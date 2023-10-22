@@ -391,6 +391,7 @@ export interface ApiPagePage extends Schema.CollectionType {
     > &
       Attribute.Required;
     menu: Attribute.Component<'menu.menu'> & Attribute.Required;
+    footer_text: Attribute.RichText & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -38,6 +38,10 @@
       "repeatable": false,
       "component": "menu.menu",
       "required": true
+    },
+    "footer_text": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
